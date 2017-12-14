@@ -1,10 +1,17 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
 header {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
   align-items: end;
   border-bottom: .3rem solid darkgrey;
+  background-color: black;
 }
+
 
 h1 {
   grid-column: 1/span 2;
@@ -20,4 +27,13 @@ nav a {
   text-decoration: none;
   color: darkgrey;
   font-size:
+}
+
+p {
+  font-size: 2rem;
+}
+
+ul {
+  width: 60%;
+  height: 2rem;
 }
