@@ -9,3 +9,12 @@ function multiply (array) {
 }
 
 multiply(numbers);
+
+const people= [
+  {name: Kevin,
+    age: 32
+  },
+  {name: Amber,
+    age: 28
+  }
+];
