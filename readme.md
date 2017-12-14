@@ -6,7 +6,7 @@ Amber's Tasks:
 
 2) You should create a new directory. Move at least one file into that directory.
 
-3)
+3) You should create a new HTML file. Link to it from index.html.
 
 4)
 
