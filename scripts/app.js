@@ -10,6 +10,7 @@ function multiply (array) {
 
 multiply(numbers);
 
+
 function evenNumbers (array) {
     return array.filter(number => {
         return number % 2 === 0;
@@ -17,3 +18,12 @@ function evenNumbers (array) {
 }
 
 evenNumbers(numbers);
+
+const people= [
+  {name: Kevin,
+    age: 32
+  },
+  {name: Amber,
+    age: 28
+  }
+];
