@@ -9,3 +9,11 @@ function multiply (array) {
 }
 
 multiply(numbers);
+
+function evenNumbers (array) {
+    return array.filter(number => {
+        return number % 2 === 0;
+    })
+}
+
+evenNumbers(numbers);
